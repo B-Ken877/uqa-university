@@ -1,0 +1,19 @@
+{
+  "/(public)/about/page": "/about",
+  "/(public)/admissions/page": "/admissions",
+  "/(public)/contact/page": "/contact",
+  "/(public)/faculties/[id]/page": "/faculties/[id]",
+  "/(public)/faculties/page": "/faculties",
+  "/(public)/page": "/",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/dashboard/page": "/admin/dashboard",
+  "/admin/page": "/admin",
+  "/api/admin/credentials/route": "/api/admin/credentials",
+  "/api/admin/login/route": "/api/admin/login",
+  "/api/admissions/download/route": "/api/admissions/download",
+  "/api/admissions/list/route": "/api/admissions/list",
+  "/api/admissions/submit/route": "/api/admissions/submit",
+  "/api/admissions/update/route": "/api/admissions/update",
+  "/api/route": "/api"
+}

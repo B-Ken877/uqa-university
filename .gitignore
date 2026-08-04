@@ -1,10 +1,20 @@
 # Dependencies
 node_modules/
 
-# Next.js build output
-.next/
+# Next.js build cache (keep standalone for deployment)
+.next/cache/
+.next/dev/
+.next/server/
+.next/static/
+.next/types/
+.next/*.json
+.next/*.js
+.next/trace*
+.next/turbopack
+.next/BUILD_ID
+.next/package.json
 
-# Build artifacts
+# Build artifacts (native addons)
 build/
 
 # Database files
@@ -29,4 +39,7 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Source maps
+*.map
 

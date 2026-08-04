@@ -1,0 +1,19 @@
+{
+  "/(public)/about/page": "app/(public)/about/page.js",
+  "/(public)/admissions/page": "app/(public)/admissions/page.js",
+  "/(public)/contact/page": "app/(public)/contact/page.js",
+  "/(public)/faculties/[id]/page": "app/(public)/faculties/[id]/page.js",
+  "/(public)/faculties/page": "app/(public)/faculties/page.js",
+  "/(public)/page": "app/(public)/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/api/admin/credentials/route": "app/api/admin/credentials/route.js",
+  "/api/admin/login/route": "app/api/admin/login/route.js",
+  "/api/admissions/download/route": "app/api/admissions/download/route.js",
+  "/api/admissions/list/route": "app/api/admissions/list/route.js",
+  "/api/admissions/submit/route": "app/api/admissions/submit/route.js",
+  "/api/admissions/update/route": "app/api/admissions/update/route.js",
+  "/api/route": "app/api/route.js"
+}

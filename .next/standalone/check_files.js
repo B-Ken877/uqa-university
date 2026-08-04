@@ -1,0 +1,1 @@
+const db=require("better-sqlite3")("data/uqa.db");const rows=db.prepare("SELECT id,firstName,lastName,philoAttestation,fichePhilo,birthCertificate,fiscalMatricule FROM admissions WHERE philoAttestation IS NOT NULL OR fichePhilo IS NOT NULL OR birthCertificate IS NOT NULL OR fiscalMatricule IS NOT NULL").all();console.log(JSON.stringify(rows,null,2));db.close();
